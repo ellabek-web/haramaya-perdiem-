@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget password page</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link href = 'http://fonts.googleapis.com/css?family=Rosario' 
+    rel = 'stylesheet' type = 'text/css'>
+    <script src="JS/forget.js" ></script>
+
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+   
+   <div  class="nav">		
+      <a class="active" href="Home.html"><i class="fa fa-fw fa-home"></i> HOME</a> 
+      <a href="About.html" target="_self"><i class="fa fa-user-circle" aria-hidden="true"></i> ABOUT</a>
+      <a href="#">SERVICE</a>
+      <a href="#"><i class="fa fa-fw fa-envelope"></i> CONTACT</a>
+      <a href="#" ><i class="fa fa-fw fa-question-circle"></i>HELP</a>
+   </div>
+   <form  class="form">
+            <h3>Enter your information here</h3>
+            <fieldset>
+                <legend>Log in</legend>
+                <label for="login" >Name</label>
+                <input type="text" id="login" name="login" placeholder="enter your name">
+                
+                
+                <label for="email">email</label>
+                <input type="email" id="password" name="password" placeholder="username@gmail.com" required/>
+                <div class="clear"></div>
+            <button class="button"  onclick="confirmation()" >submit </button>
+</fieldset>
+</form>
+</body>
+</html>

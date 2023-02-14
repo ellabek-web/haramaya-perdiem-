@@ -1,0 +1,152 @@
+
+		*{margin: 0;
+		padding: 0;
+	     box-sizing: border-box;}
+		header {
+			position: absolute;
+			background-color: #2980B9;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			color: white;
+			position: fixed;
+			 z-index: 2;
+		}
+		header{
+			height: 20vh;
+			margin-bottom: 10px;
+		}
+		header img {
+			position: absolute;
+			left: 0;
+			width:20vh ;
+			height:19vh ;
+
+		}
+		header h2 {
+			position: absolute;
+			margin-top: 20px;
+			left: 15%;
+		}
+		
+
+
+
+			.hhh{
+
+height:10vh;
+bottom: -160vh;
+position: relative;
+background-color: #2980B9;
+width: 100%;
+color: white;
+padding-top: 15px;
+
+}
+.hhh h3 {
+position: absolute;
+top: 120px;
+
+}
+a{
+	   text-decoration: none;
+	   margin: 10px;
+	   color: #fff;
+   }
+a:hover{
+	color: #ff7200;
+}
+
+	  .div2{
+		height:20vh;
+			bottom: -160vh;
+			position: relative;
+			background-color: #13487c;
+
+	  }
+	  .div2 p{
+		  color:white;
+		  position: relative;
+		  float: right;
+		  margin-top: 15px;
+	  }
+	  .div2 h4{
+position: absolute;
+top: 100px;
+color: #fff;
+left: 10px;
+}
+.requ{
+	position: absolute;
+	top: 30vh;
+	border:solid #7db3d6;
+	left: 45vh;
+	padding: 100px;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	background-color: #7db3d6;
+	border-radius: 15px;
+	
+}
+#submit{
+	background-color: olive;
+	position: relative;
+	float: right;
+	width: 8vh;
+	height: 6vh;
+	cursor: pointer;
+
+}
+ #submit:hover{
+	background-color: orange;
+
+}
+body{ font-family: Georgia, serif; background-image: url(finance.jpg) 
+	   }
+.per{
+	position: absolute;
+			background-color: #2980B9;
+			left: 30px;
+			right: -5vh;
+			top: 21vh;
+			margin-right: 100vh;
+			margin-left: 10vh;
+			padding: 10px;
+			text-align: center;
+			color: white;
+			position: fixed;
+			 z-index: 2;
+			
+}
+.nav{
+	        position: absolute;
+			background-color: #2980B9;
+			left: 20px;
+			right: -5vh;
+			color: white;
+			position: fixed;
+			z-index: 1;
+           top: 20vh;
+           padding: 20px;
+          margin: 10px;
+          width: 75%;
+         font-size: 18px;
+			
+}
+a{
+	   text-decoration: none;
+	   margin: 10px;
+	   color: #fff;
+   }
+a:hover{
+	color: #ff7200;
+}
+.active {
+	color: #ff7200;
+}
+.youtube{
+	color:red;
+}
+.instagram{
+	color: magenta;
+}

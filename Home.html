@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="JS/home.js">
+				
+		</script>
+</head>
+<body>
+<header>
+	
+	<img src="img/log.png" alt="Hu logo">
+	<h2>Haramaya Unversity<br>Perdiam Request Website</h2>
+	
+</header>
+
+<div  class="nav">		
+	<a class="active" href="Home.html"><i class="fa fa-fw fa-home"></i> HOME</a> 
+	<a href="About.html" target="_parent"><i class="fa fa-user-circle" aria-hidden="true"></i> ABOUT</a>
+	<a href="#">SERVICE</a>
+	<a href="#"><i class="fa fa-fw fa-envelope"></i> CONTACT</a>
+	<a href="#" ><i class="fa fa-fw fa-question-circle"></i>HELP</a>
+
+</div>
+<div class="search" style="margin:auto;max-width:300px">
+	<input type="text" placeholder="Search.." name="search2">
+	<button type="submit"><i class="fa fa-search"></i></button>
+</div>
+
+<form  class="form">
+			<h3>Login Here</h3>
+			<fieldset>
+		
+				<legend>Log in</legend>
+				
+				<label for="login" >Username</label>
+				<input type="text" id="login" name="login" placeholder="enter your username">
+				<div class="clear"></div>
+				
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" placeholder="********"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+				<div class="clear"></div>
+				<label for="text">Job position</label>
+			<input type="text" name="job" placeholder="Employee" list="jobs" id="jobposition">
+			<datalist id="jobs">
+				<option value="Employee">
+				<option value="Departement Head">
+				<option value="College Dean">
+				<option value="Vice President">
+				<option value="Accountant">
+			</datalist>
+
+			<label for="remember_me" style="padding: 0;">Remember me?</label>
+			
+			<div><input type="checkbox" id="remember_me" style="position: relative; top: 3px; margin: 0; " name="remember_me"/></div>
+			<a href="Forget.html" id="large">Forgot Your Password?</a>
+			<button class="button"  id="butn" onclick="validate()">Login </button>
+</fieldset>
+</form>
+
+
+<section class="hhh">
+
+	<div class="foot">
+		<a href="#" id="face"> <i class="fa fa-facebook fa-2x kk" class="facebook"></i>Follow us on Facebook</a>
+			<a href="#"><i class="fa fa-twitter fa-2x kk"></i>Follow us on Twitter</a>
+			<a href="#"><i class="fa fa-linkedin fa-2x kk"></i>Follow us on Linked in</a>
+		  <a href="#"><i class="fa fa-youtube fa-2x kkk"></i>Watch on Youtube</a>
+		  <a href="#"><i class="fa fa-instagram fa-2x kkkk"></i>Follow us on Instagram</a>
+	  </div>
+
+
+	
+</section>
+<div class="div2">
+	<h4>Haramaya University Copyright <br>&copy; 2022 All rights reserved.</h4>
+	<p>
+	ADDRESS<br>
+	Haramaya University,<br>
+	P.O. Box 138,<br>
+	Dire Dawa,<br>
+	Ethiopia<br>
+	haramaya@haramaya.edu.et
+</p>
+</div>
+</body>
+</html>

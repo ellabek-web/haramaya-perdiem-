@@ -1,0 +1,175 @@
+
+		*{margin: 0;
+		 padding: 0;
+		 box-sizing: border-box;}
+
+		.header{position: absolute;
+			background-color: #2980B9;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			color: white;
+			position: fixed;
+			 z-index: 2;
+			 height: 20vh;
+			margin-bottom: 10px;
+			text-align: center;
+			
+       }
+    .header h1 {
+			position: absolute;
+			margin-top: 20px;
+			left: 15%;
+		}
+		.header h2 {
+			position: absolute;
+			top: 100px;
+			left: 15%;
+		}
+	
+       body{background-image: url("finance.jpg");}
+       .header img {
+			position: absolute;
+			left: 0;
+			width:20vh ;
+			height:19vh ;
+			top: 1px;
+
+		}
+		.hhh{
+
+			height:10vh;
+bottom: -200vh;
+position: relative;
+background-color: #2980B9;
+width: 100%;
+color: white;
+
+		
+		}
+		
+		 .foot{
+		  position: absolute;
+
+
+		  top: 80px;
+		  text-decoration: none;
+		  margin: 10px;
+
+	  }
+	  .div2{
+	       height:20vh;
+			bottom: -200vh;
+			position: relative;
+
+			background-color: #13487c;
+
+
+	  }
+	  .div2 p{
+		  color:white;
+		  position: relative;
+		  float: right;
+		  margin-top: 15px;
+	  }
+	  .div2 h4{
+position: absolute;
+top: 100px;
+color: #fff;
+left: 10px;
+
+
+}
+.form{position: absolute;
+	top: 50vh;
+	border:solid #7db3d6;
+	left: 20vh;
+	padding: 100px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #7db3d6;
+	border-radius: 15px;
+font-weight: bold;
+font-size: 20px;}
+.foot{position: absolute;
+top: 12px;
+
+}
+	a{
+	   text-decoration: none;
+	   margin: 10px;
+	   color: #fff;
+   }
+a:hover{
+	color: #ff7200;
+}	
+table {
+	width: 2%;
+  font-family: 'Arial';
+  margin: 25px;
+  border-collapse: collapse;
+  border:  solid rgb(87, 161, 211);
+  border-bottom: 2px solid #00cccc;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+     0px 10px 20px rgba(0,0,0,0.05),
+     0px 20px 20px rgba(0,0,0,0.05),
+     0px 30px 20px rgba(0,0,0,0.05);
+	 background-color: whitesmoke;
+  }
+  th, td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 2px 3px;
+	margin-left: 25px;
+	margin-right: 25px;
+    border-collapse: collapse;
+  }
+  th {
+    background: #00cccc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+   
+  }
+  th,td input{
+	  width: 100px;
+	 
+  }
+  .nav{
+	        position: absolute;
+			background-color: #2980B9;
+			left: 20px;
+			right: -5vh;
+			color: white;
+			position: fixed;
+			z-index: 1;
+           top: 20vh;
+           padding: 20px;
+          margin: 10px;
+          width: 75%;
+         font-size: 18px;
+			
+}
+   .radio{width: 25px;
+   	height: 20px;}
+   	#submit{
+	background-color: skyblue;
+	position: relative;
+	float: right;
+	width: 12vh;
+	height: 5vh;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+ #submit:hover{
+	background-color: #2980B9;
+
+}
+.youtube{
+	color: red;
+}
+.instagram{
+	color: magenta;
+}
+

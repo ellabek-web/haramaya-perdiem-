@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Employee page</title>
+	<link rel="stylesheet" type="text/css" href="css/employerequest.css">
+</head>
+
+<body>
+	<header>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<img src="log.png" alt="Hu logo">
+		<h2>Haramaya Unversity<br>Perdiam Request Website</h2>
+		
+	</header>
+    <div  class="nav">		
+		<a class="active" href="Home.html"><i class="fa fa-fw fa-home"></i> HOME</a> 
+		<a href="Employee_travel_plan.html " target="_self"><i class="fa fa-fw fa-plane"></i></i>TRAVEL PLAN</a>
+		<a href="Employee_report_page.html" target="_self" ><i class="fa fa-fw fa-book" aria-hidden="false"></i>REPORT</a>
+		<a href="About.html" target="_self"><i class="fa fa-user-circle" aria-hidden="true"></i> ABOUT</a>
+		<a href="#"><i class="fa fa-fw fa-receipt"></i>SERVICE</a>
+		<a href="#"><i class="fa fa-fw fa-envelope"></i> CONTACT</a>
+		<a href="#" ><i class="fa fa-fw fa-question-circle"></i>HELP</a>
+	
+	</div>
+	<form class="requ">
+		<div>
+	 <p>
+		 Date
+		<input type="Date" name="date"><br><br>
+		1. Name:
+			<input type="text" name="name"><br><br>
+		2. College/School/Department/Offices
+			<input type="text" name="department"><br><br><br>
+		3. Program/Project Name
+		<input type="text" name="Project">(Applicable for Project) <br><br>
+		4. Salary
+		<input type="text" name="salary"><br><br>
+		5. Per-diem rate per day birr (When applicable)
+		<input type="text" name="rate"><br><br>
+		6. Purpose of the trip<br><br>
+		<textarea  cols="50" rows="5" id="text">Enter the purpose...</textarea><br><br>
+		7. Departure <input type="text" name="departure">   Destination <input type="text" name="destination"><br><br>
+        8. Means of Travel<br>
+        <p><input type="radio" name="travel" class="radio" > Air</p>
+         
+        <p> <input type="radio" name="travel" class="radio">HU Vehicle</p>
+          
+      <p ><input type="radio" name="travel" class="radio">Bus</p>
+          
+        <br>
+        9. Total no. of days (see the travel plan)
+        <input type="number" name="days" max="7" min="1" value="3"><br><br>
+        10. Advance payment (see the details on the attached travel plan) <br><br>
+        10.1 Per-diem payment birr
+        <input type="text" name="payment"><br><br>
+        10.2 Fuel
+        <input type="text" name="fuel"><br><br>
+        10.3 Incidental
+        <input type="text" name="incidental"><br><br>
+        10.4 Total pay birr
+        <input type="text" name="total"><br><br>
+
+        <input type="submit" value="Submit" id="submit">
+        <button onclick="window.print()">Print This Page</button>
+
+		</p>
+		</div>
+		</form>
+		<section class="hhh">
+
+			<div class="foot">
+				<p   class="ull"><a href="#"> <i class="fa fa-facebook fa-2x kk"></i>Follow us on Facebook</a>
+					<a href="#"><i class="fa fa-twitter fa-2x kk"></i> Follow us on Twitter</a>
+					<a href="#"><i class="fa fa-linkedin fa-2x kk"></i> Follow us on Linked in</a>
+				  <a href="#"><i class="fa fa-youtube fa-2x youtube"></i> Watch on Youtube</a>
+				  <a href="#"><i class="fa fa-instagram fa-2x instagram"></i> Follow us on Instagram</a></p>
+			  </div>
+		
+			
+		</section>
+		<div class="div2">
+			<h4>Haramaya University Copyright &copy; 2022 All rights reserved.</h4>
+			<p>
+			ADDRESS<br>
+			Haramaya University,<br>
+			P.O. Box 138,<br>
+			Dire Dawa,<br>
+			Ethiopia<br>
+			haramaya@haramaya.edu.et
+		</p>
+		</div>
+</body>
+</html>
